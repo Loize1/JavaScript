@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Testando JavaScript</title>
+</head>
+<body>
+  <h1>Meu Teste de JavaScript</h1>
+  <button onclick="executar()">Executar Código</button>
+
+  <script>
+    function executar() {
+      // Seu código vai aqui dentro
+      let conta = 50;
+      conta += Number(prompt("Qual valor deseja inserir ou retirar da conta?"));
+      alert(`Atualmente, você possui R$ ${conta} em sua conta`);
+    }
+  </script>
+</body>
+</html>

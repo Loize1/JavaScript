@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Verificador de Número</title>
+</head>
+<body>
+  <h1>Teste: O número é positivo ou negativo?</h1>
+  <button onclick="verificarNumero()">Verificar</button>
+
+  <script>
+    function verificarNumero() {
+      let numero = prompt("Diga um número:");
+      
+      if (numero < 0) {
+        alert("Este número é negativo");
+      } else {
+        alert("Este número é positivo");
+      }
+    }
+  </script>
+</body>
+</html>
