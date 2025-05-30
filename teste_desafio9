@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Contador com While</title>
+</head>
+<body>
+  <h1>Contagem regressiva</h1>
+  <script>
+    let numero = prompt("Informe um número:");
+ 
+    while (numero > 0){
+    alert(numero);
+    numero--;
+    }
+  </script>
+</body>
+</html>
+
