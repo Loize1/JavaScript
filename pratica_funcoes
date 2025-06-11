@@ -1,0 +1,55 @@
+function olaMundo() {
+    console.log("Olá, mundo!");
+}
+
+olaMundo();
+
+let nome = prompt("Qual o seu nome?")
+function olaPessoa(nome){
+    alert(`Olá, ${nome}`);
+}
+
+olaPessoa(nome);
+
+let numero = parseFloat(prompt("Digite um número:"));
+function dobro(numero){
+    let operacao = numero * 2;
+    alert(`O dobro de ${numero} é ${operacao}`);
+}
+
+dobro(numero);
+
+let num1 = parseFloat(prompt("Diga o primeiro número:"));
+let num2 = parseFloat(prompt("Diga o segundo número:"));
+let num3 = parseFloat(prompt("Diga o terceiro número:"));
+
+function media(num1, num2, num3){
+    let resultado = (num1 + num2 + num3)/3;
+    alert (`A média de ${num1}, ${num2} e ${num3} é ${resultado}`);
+}
+
+media(num1, num2, num3);
+
+let alg1 = parseFloat(prompt("Diga o primeiro número:"));
+let alg2 = parseFloat(prompt("Diga o segundo número:"));
+
+function comparacaoDeNumeros(alg1, alg2){
+    if (alg1 > alg2){
+        alert (`O maior número é ${alg1}`);
+    } 
+    else if (alg2 > alg1) {
+        alert (`O maior número é ${alg2}`);
+    } 
+    else { alert (`${alg1} é igual a ${alg2}`);
+    }
+}
+
+comparacaoDeNumeros(alg1, alg2);
+
+let algarismo = parseFloat(prompt("Diga um número: "));
+function multiplicacao(algarismo){
+    let result = algarismo * algarismo;
+    alert(`O resultado da multiplicação do número ${algarismo} por ele mesmo é ${result}`);
+}
+
+multiplicacao(algarismo);
